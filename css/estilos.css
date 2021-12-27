@@ -1,0 +1,200 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+input, textarea{
+    border-radius: 15px !important; /* si no le agrego el important no sobreescribe la clase de bootstrap*/
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+textarea{
+    height: 150px;
+}
+footer{
+    font-weight: 100;
+}
+nav .nav-link{ 
+    color: #282828;
+} 
+nav .fa-bars{
+    color: #E20000;
+}
+nav .navbar-toggler{
+    border: 3px solid #E20000;
+}
+footer .fa-github{
+    font-size: 36px;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 24px;
+    border: 0px;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-whatsapp{
+    color: white;
+}
+footer .bloque-whatsapp{
+    font-size: 30px;
+}
+.active{
+    border: 1px solid #E20000;
+    border-radius: 20px;
+}
+.bloque-whatsapp{
+    position: fixed ;
+    right: 80px;
+    bottom: 0px;
+    background-color:#370a6d;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.btn-rojo{
+    background-color: #E20000;
+    color: white;
+    border-radius: 15px;
+    font-weight: 100;
+}
+.btn-rojo:hover{
+    background-color: #370a6d;
+    color: white;
+    border-radius: 15px;
+}
+.btn-blanco{ 
+    background-color: white;
+    color: #370a6d;
+    border-radius: 15px;
+}
+.btn-blanco:hover{
+    background-color: #370a6d;
+    color: white;
+    border-radius: 15px;
+}
+.btn-link{
+    color: #E20000;
+    text-decoration: none;
+}
+.btn-link:hover{
+    color: #370a6d;
+    text-decoration: none;
+}
+
+#contacto, #inicio{
+background-image: url(../images/fondo-contacto.png);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#inicio img{
+    height: 400px;
+}
+#inicio img:hover{
+    height: 410px;
+}
+#inicio .div-cohete{
+    height: 410px;
+}
+#inicio .input-home p{
+    color:white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+#proyectos .border{
+    border-radius: 0.25rem;
+}
+#proyectos p{
+    font-size: 16px;
+}
+#proyectos img {
+    height: 210px;
+}
+#proyectos .p-proyectos{
+    height: 115px;
+    font-size: 14px;
+}
+#proyectos h3{
+    font-size: 16px;
+    color: white;
+    background-color:#E20000;
+}
+#proyectos,#sobre-mi {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+    color: white;
+}
+#proyectos footer, #proyectos footer a{
+    color: #E20000;
+}
+#sobre-mi .img-circle{
+    height: 300px;
+}
+@media(max-width: 750px){ /*para mobile*/
+    #contacto, #inicio {
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    #contacto footer, #contacto footer a{
+        color: #E20000;
+    }
+    #inicio footer, #inicio footer a{
+        color: #E20000;
+    }
+    #inicio .input-home p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+    #proyectos .bloque-whatsapp{
+        position: fixed ;
+        right: 15px;
+        bottom: 0px;
+        background-color:#370a6d;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #inicio .bloque-whatsapp{
+        position: fixed ;
+        right: 15px;
+        bottom: 0px;
+        background-color:#370a6d;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;   
+    }
+    #contacto .bloque-whatsapp{
+        position: fixed ;
+        right: 15px;
+        bottom: 0px;
+        background-color:#370a6d;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #contacto .btn-blanco{
+        background-color: #E20000;
+        color: white;
+        border-radius: 15px;
+        font-weight: 100;
+    }
+         
+    
+
+
+}
