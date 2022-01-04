@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css\estilos.css">
 </head>
 
 <body id="contacto">
@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
                         <li class="nav-item">
-                            <a class="nav-link py-1" href="index.html">Inicio</a>
+                            <a class="nav-link px-4 py-1" href="index.php">Inicio</a>
                         </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="sobre-mi.html">Sobre mi</a>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mi</a>
                         </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="proyectos.html">Proyectos</a>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="proyectos.php">Proyectos</a>
                         </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link py-1 px-4 active" href="contacto.html">Contacto</a>
+                        <li class="nav-item">
+                            <a class="nav-link py-1 px-4 active" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-inline">
@@ -47,13 +47,13 @@
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-12 py-4 pb-5">
+            <div class="col-12 py-4 mt-3 mb-4">
                 <h1>Contacto</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-6">
-                <p>Te invito a que me contactes enviándome un mensaje o bien por Whatsapp</p>
+                <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
             </div>
             <div class="col-12 col-sm-6">
                 <form action="" method="post">
@@ -66,11 +66,11 @@
                             class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Télefono/Whatsapp"
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Whatsapp"
                             class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <textarea name="txtComentarios" id="txtComentarios" placeholder="Escribe aquí tu comentario"
+                        <textarea name="txtComentarios" id="txtComentarios" placeholder="Escribe aquí tu mensaje"
                             class="form-control shadow"></textarea>
                     </div>
                     <button type="Submit" id="btnEnviar" name="btnEnviar" class="btn btn-blanco px-4">ENVIAR</button>
@@ -80,7 +80,7 @@
     </main>
     <footer class="container">
         <div class="row mb-2 mt-5">
-            <div class="col-12 col-sm-3 text-center text-sm-start">
+            <div class="col-12 col-sm-3 text-center text-sm-start"> <!--sigue estando muy arriba -->
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/francisco-bilbao/" target="_blank" title="Linkedin"><i
                         class="fab fa-linkedin-in"></i></a>

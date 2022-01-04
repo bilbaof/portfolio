@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sobre-mi</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body id="sobre-mi">
+<body id="inicio">
     <header class="container px-0">
         <nav class="navbar navbar-expand-md px-0">
             <div class="container-fluid">
@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
                         <li class="nav-item">
-                            <a class="nav-link py-1" href="index.html">Inicio</a>
+                            <a class="nav-link active px-4 py-1" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active px-4 py-1" href="sobre-mi.html">Sobre mi</a>
+                            <a class="nav-link py-1" href="sobre-mi.php">Sobre mi</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link py-1" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="contacto.html">Contacto</a>
+                            <a class="nav-link py-1" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-inline">
@@ -45,32 +45,28 @@
             </div>
         </nav>
     </header>
+
     <main class="container">
         <div class="row">
-            <div class="col-sm-5">
-                <div class="py-4 pb-4 mt-5">
-                    <h1>Sobre mí</h1>
+            <div class="col-12 mt-5 text-center div-cohete">
+                <a href="#"><img src="images/cohete.svg" class="cohete"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
+                <div class="input-home">
+                    <p class="p-1">Bienvenid@ a mi mis trabajos realizados.</p>
                 </div>
-                <p class="p-1 pb-5">Soy arquitecto, y estoy incursionando en la programacion web ya que siempre me
-                    intereso
-                    este rubro</p>
-                <div>
-                    <a href="#" class="btn btn-rojo">Enviar mensaje</a>
-                </div>
-            </div>
-            <div class="col-sm-3 offset-sm-2 py-5 mt-2">
-                <img src="../Portfolio/images/cv.jpg" alt="francisco-bilbao" class="img-fluid img-circle">
             </div>
         </div>
-        <div class="row container-fluid">
-            <div class="col-12 bg-danger">
-                A
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="proyectos.html" class="btn btn-blanco shadow">Conoce mis proyectos</a>
             </div>
         </div>
-        <div>
-            A
-        </div>
+
     </main>
+
     <footer class="container my-5">
         <div class="row">
             <div class="col-12 col-sm-3 text-center text-sm-start">
