@@ -26,12 +26,12 @@ nav .fa-bars{
     color: #E20000;
 }
 nav .navbar-toggler{
-    border: 3px solid #E20000;
+    border: 0px solid #E20000;
 }
-footer .fa-github{
+footer .fa-github{                  /*boton footer github*/
     font-size: 36px;
 }
-footer .fa-linkedin-in{
+footer .fa-linkedin-in{             /*boton footer linkedin*/
     color: #ff4a49;
     background-color: white;
     font-size: 24px;
@@ -43,10 +43,10 @@ footer .fa-linkedin-in{
     border-radius: 80px;
     margin: 0 8px;
 }
-footer .fa-whatsapp{
+footer .fa-whatsapp{                /*boton footer whatsapp*/
     color: white;
 }
-footer .bloque-whatsapp{
+footer .bloque-whatsapp{            /*boton morado whatsapp*/
     font-size: 30px;
 }
 .active{
@@ -193,7 +193,7 @@ background-repeat: no-repeat;
         border-radius: 15px;
         font-weight: 100;
     }
-         
+    
     
 
 
