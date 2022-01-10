@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css?v=<?php echo rand(100,500); ?>">
 </head>
 
 <body id="inicio">
@@ -67,7 +67,7 @@
 
     </main>
 
-    <footer class="container my-5">
+    <footer class="container mt-5 pb-3">
         <div class="row">
             <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
@@ -80,7 +80,7 @@
                     href="to:info@franciscobilbao.com.ar">info@franciscobilbao.com.ar</a></div>
         </div>
         <div class="bloque-whatsapp pb-3 pt-2 px-3">
-            <a href=""><i class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=31644459593" target="_blank"><i class="fab fa-whatsapp"></i></a>
         </div>
     </footer>
 </body>

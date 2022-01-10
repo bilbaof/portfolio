@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css?v=<?php echo rand(100,500); ?>">
 </head>
 
 <body id="sobre-mi">
@@ -51,15 +51,13 @@
                 <div class="py-4 pb-4 mt-5">
                     <h1>Sobre mí</h1>
                 </div>
-                <p class="p-1 pb-5">Soy arquitecto, y estoy incursionando en la programacion web ya que siempre me
-                    intereso
-                    este rubro</p>
+                <p class="p-1 pb-5">Estudie y me recibi de Arquitecto, pero en los ultimos años me fui interesando en la programacion, el diseño web y el diseño UX. Tome como un desafio personal el desarrollarme en este area para contar con mas herramientas a la hora de encarar el mercado laboral actual.</p>
                 <div>
                     <a href="#" class="btn btn-rojo">Enviar mensaje</a>
                 </div>
             </div>
             <div class="col-sm-3 offset-sm-2 py-5 mt-2">
-                <img src="../Portfolio/images/cv.jpg" alt="francisco-bilbao" class="img-fluid img-circle">
+                <img src="../Portfolio/images/cv.jpg" alt="francisco-bilbao" title="francisco bilbao" class="img-fluid img-circle">
             </div>
         </div>
         <div class="row container-fluid">
@@ -71,9 +69,9 @@
             A
         </div>
     </main>
-    <footer class="container my-5">
-        <div class="row">
-            <div class="col-12 col-sm-3 text-center text-sm-start">
+    <footer class="container">
+        <div class="row mb-2 mt-5">
+            <div class="col-12 col-sm-3 text-center text-sm-start"> <!--sigue estando muy arriba -->
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/francisco-bilbao/" target="_blank" title="Linkedin"><i
                         class="fab fa-linkedin-in"></i></a>
@@ -84,7 +82,7 @@
                     href="to:info@franciscobilbao.com.ar">info@franciscobilbao.com.ar</a></div>
         </div>
         <div class="bloque-whatsapp pb-3 pt-2 px-3">
-            <a href=""><i class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=31644459593" target="_blank"><i class="fab fa-whatsapp"></i></a>
         </div>
     </footer>
 </body>
