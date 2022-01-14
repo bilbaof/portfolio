@@ -9,6 +9,15 @@ h1{
     color: #E20000;
     font-size: 36px;
 }
+h2{
+    color: white;
+    font-size: 24px;
+}
+h3{
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+}
 p{
     color: #6a6a6a;
     font-size: 16px;
@@ -65,6 +74,9 @@ footer .bloque-whatsapp{            /*boton morado whatsapp*/
     color: white;
     border-radius: 15px;
     font-weight: 100;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    
+    
 }
 .btn-rojo:hover{
     background-color: #370a6d;
@@ -89,7 +101,14 @@ footer .bloque-whatsapp{            /*boton morado whatsapp*/
     color: #370a6d;
     text-decoration: none;
 }
-
+.baw {
+    -webkit-filter: grayscale(100%); 
+      filter: grayscale(100%);
+}
+.baw:hover {
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(0%);
+}
 #contacto, #inicio{
 background-image: url(../images/fondo-contacto.png);
 background-size: 100%;
@@ -137,7 +156,7 @@ background-repeat: no-repeat;
 #contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
     color: white;
 }
-#proyectos footer, #proyectos footer a{
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
     color: #E20000;
 }
 #sobre-mi .img-circle {
@@ -146,6 +165,66 @@ background-repeat: no-repeat;
     background-color: #fff;
     padding: 10px;
     border-radius: 50%;
+}
+#sobre-mi .color-gradiente {
+    background: linear-gradient(to right, rgba(184,37,20,1), rgba(240,47,23,1));   
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+    color:#370A6D;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#sobre-mi .card{
+    height: 182px;
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+#experiencias h2{
+    color: #370a6d;
+    font-weight: 400;
+}
+#experiencias h3, #formacion h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#experiencias h4{
+    font-size: 17px;
+    color: #370a6d;
+}
+#experiencias h5, #formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#formacion h2{
+    color: #E20000;
+    font-weight: 400;
+}
+#formacion h4{
+    font-size: 17px;
+    color: #E20000;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
 }
 @media(max-width: 750px){ /*para mobile*/
     #contacto, #inicio {
@@ -161,7 +240,7 @@ background-repeat: no-repeat;
         color: #E20000;
         border: 1px solid #E20000;
     }
-    #proyectos .bloque-whatsapp{
+    #proyectos .bloque-whatsapp, #sobre-mi .bloque-whatsapp{
         position: fixed ;
         right: 15px;
         bottom: 0px;

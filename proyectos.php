@@ -100,7 +100,6 @@
             </div>
             <div class="col-12 col-sm-4 proyecto">
                 <div class="m-1 border bg-white">
-                    <!-- la imagen queda muy chica-->
                     <img src="images/proyecto-integrador.png" alt="ABMclientes" class="img-fluid">
                     <div>
                         <h3 class="py-3 px-2">PROYECTO INTEGRADOR</h3>
